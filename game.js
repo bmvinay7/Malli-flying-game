@@ -172,8 +172,8 @@ function update() {
             pipe.passed = true;
             score++;
             
-            // Check for win condition at 5 pipes (testing)
-            if (score >= 5) {
+            // Check for win condition at 24 pipes
+            if (score >= 24) {
                 winGame();
                 return;
             }
